@@ -1,4 +1,6 @@
 # googleclon
 
-Simple clon about gooogle homepage: https://github.com/lroca7/googleclon/deployments/activity_log?environment=github-pages
+Simple clon about gooogle homepage:
+
+https://lroca7.github.io/googleclon/
 
