@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div class="header">
+  <body class="body">
+    <header class="header">
       <nav class="menu">
         <ul>
           <li><a>Gmail</a></li>
@@ -22,23 +22,44 @@
           <li><img class="avatar" src="./images/avatar.png" alt="Avatar" /></li>
         </ul>
       </nav>
-    </div>
-    <div class="container">
-      <div class="container-logo">
+    </header>
+    <main class="container">
+      <section class="container-logo">
         <img src="./images/google.png" />
-      </div>
-      <div class="search">
+      </section>
+      <section class="search">
         <img class="icon-search" src="./images/search.svg" />
 
         <input class="input-search" type="text" />
 
         <img class="icon-microphone" src="./images/microphone.svg" />
-      </div>
-      <div class="options">
-        <button class="default-button">Google Searcg</button>
+      </section>
+      <section class="options">
+        <button class="default-button">Google Search</button>
         <button class="default-button">I'm feeling lucking</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="country">
+        Colombia
       </div>
-    </div>
-    <div class="footer"></div>
+      <div class="footer-menu">
+        <nav class="menu-about">
+          <ul>
+            <li><a>About</a></li>
+            <li><a>Adversting</a></li>
+            <li><a>Business</a></li>
+            <li><a>How search works</a></li>
+          </ul>
+        </nav>
+        <nav class="menu-privacy">
+          <ul>
+            <li><a>Privacy</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Settings</a></li>
+          </ul>
+        </nav>        
+      </div>
+    </footer>
   </body>
 </html>
